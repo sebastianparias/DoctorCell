@@ -1,0 +1,77 @@
+body {
+	background-image: url(123.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: Arial, Verdana, Helvetica;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+input {
+	width: 100%;
+}
+
+.registro {
+	width: 19%;
+	display: inline-center;
+	position: fixed;
+  	right: 0; 
+
+
+}
+
+.div_tabla {
+	display: inline-block;
+	width: 75%;
+}
+
+table {
+	display: inline-block;
+	width: 100%;
+	margin-left: 80px;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+td, tr, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+
+td{
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#busqueda	{
+	width: initial;
+	margin-left: 80px;
+}
+
+.consulta	{
+	width: 80%;
+	height: 100%;
+	position: fixed;
+  	bottom: 1;
+  	right: 1;
+  	left: 0;
+  	border: 2px solid black;
+}
+
+.form1	{
+	width: 15%;
+	position: absolute;
+	top: 5%;
+	bottom: 0;
+	right: 0;
+	left: 82%;
+	
+}
+
+.inicio {
+	width: 100%;
+	height: 100%
